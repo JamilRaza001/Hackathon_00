@@ -1,150 +1,217 @@
-body{
-    background: rgb(9,41,121);
-background: -moz-radial-gradient(circle, rgba(9,41,121,1) 0%, rgba(0,212,255,1) 100%);
-background: -webkit-radial-gradient(circle, rgba(9,41,121,1) 0%, rgba(0,212,255,1) 100%);
-background: radial-gradient(circle, rgba(9,41,121,1) 0%, rgba(0,212,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092979",endColorstr="#00d4ff",GradientType=1);}
+/* Base Styles */
+body {
+  background: rgb(9, 41, 121);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(9, 41, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(9, 41, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(9, 41, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
 .MainContainer {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 20px;
-    padding: 0px;
-    background: rgb(9,41,121);
-    background: -moz-radial-gradient(circle, rgba(9,41,121,1) 0%, rgba(0,212,255,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(9,41,121,1) 0%, rgba(0,212,255,1) 100%);
-    background: radial-gradient(circle, rgba(9,41,121,1) 0%, rgba(0,212,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092979",endColorstr="#00d4ff",GradientType=1);}
-
-form{
-    margin: auto;
-    background-color: #8cadff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    max-width: 600px;   
+  margin: 20px;
+  padding: 0;
+  background: rgb(9, 41, 121);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(9, 41, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(9, 41, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(9, 41, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
-.Header{
-    text-align: center;
-    color: #fffefa;
+form {
+  margin: auto;
+  background-color: #8cadff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  max-width: 600px;
 }
 
-fieldset{
-    border: 2px solid #0a1683;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    background: rgb(238,174,202);
-    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+.Header {
+  text-align: center;
+  color: #fff;
 }
 
-legend{
-    font-weight: bold;
-    text-align: left;
-    color: #fffefa;
-
+fieldset {
+  border: 2px solid #0a1683;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: rgb(238, 174, 202);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
 
-label{
-    display: block;
-    margin-top: 10px;
-    color: black;
+label {
+  display: block;
+  margin-top: 10px;
+  color: black;
 }
 
-input, textarea{
-    margin-top: 4px;
-    padding: 8px;
-    width: calc(100% - 1px);
-    border: 1px solid skyblue;
-    border-radius: 4px;
-    box-sizing: border-box;
+input,
+textarea {
+  margin-top: 4px;
+  padding: 8px;
+  width: calc(100% - 1px);
+  border: 1px solid skyblue;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-button{
-    display: block;
-    width: 100%;
-    background: rgb(209,96,247);
-    background: -moz-linear-gradient(3deg, rgba(209,96,247,1) 0%, rgba(236,59,125,1) 50%, rgba(255,166,41,1) 100%);
-    background: -webkit-linear-gradient(3deg, rgba(209,96,247,1) 0%, rgba(236,59,125,1) 50%, rgba(255,166,41,1) 100%);
-    background: linear-gradient(3deg, rgba(209,96,247,1) 0%, rgba(236,59,125,1) 50%, rgba(255,166,41,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d160f7",endColorstr="#ffa629",GradientType=1);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    margin-top: 10px;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+button {
+  width: 100%;
+  background: linear-gradient(
+    3deg,
+    rgba(209, 96, 247, 1) 0%,
+    rgba(236, 59, 125, 1) 50%,
+    rgba(255, 166, 41, 1) 100%
+  );
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: blue;
+}
+
+.ResumePreview {
+  background-color: #8cadff;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+  max-width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  text-align: left;
+}
+
+.ResumePreview h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+}
+
+.ResumePreview h2 {
+  color: #fff;
+  font-size: 28px;
+}
+
+.ResumePreview p,
+.ResumePreview li {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ResumePreview ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ResumePreview section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #0a1683;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+
+@media (max-width: 768px) {
+  .MainContainer,
+  .ResumePreview {
+    margin: 10px;
     padding: 10px;
-    cursor: pointer;
-}
+  }
 
-button:hover{
-    color: blue;
-}
+  form,
+  .ResumePreview {
+    max-width: 100%;
+    padding: 15px;
+  }
 
-.Header p{
-    color: #fff;
-    font-weight: bold;
+  .ResumePreview h1 {
+    font-size: 28px;
+  }
+
+  .ResumePreview h2 {
     font-size: 24px;
+  }
+
+  .ResumePreview p,
+  .ResumePreview li {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+  }
 }
 
+@media (max-width: 480px) {
+  .ResumePreview h1 {
+    font-size: 24px;
+  }
 
-.ResumePreview{
-    background-color: #8cadff;
-    color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    margin-top: 50px;
-    margin-left: 170px;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-}
+  .ResumePreview h2 {
+    font-size: 20px;
+  }
 
-.ResumePreview h1{
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 44px;
-}
+  .ResumePreview p,
+  .ResumePreview li,
+  button {
+    font-size: 14px;
+  }
 
-.ResumePreview h2{
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: left;
-    color: #fff;
-    font-weight: bold;
-    font-size: 34px;
-}
-
-.ResumePreview p, .ResumePreview li{
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 10px;
-    text-align: left;
-    line-height: 1.5;
-    font-weight: bold;
-}
-
-.ResumePreview ul{
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.ResumePreview section{
-    margin-bottom: 50px;
-    padding-bottom: 20px;
-    padding: 20px;
-    border-radius: 15px; 
-    border: 2px solid #0a1683;
-    background: rgb(238,174,202);
-    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    
+  form,
+  .ResumePreview {
+    margin: 5px;
+    padding: 10px;
+  }
 }
