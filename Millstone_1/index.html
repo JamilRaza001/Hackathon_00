@@ -4,104 +4,148 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Resume Builder</title>
+    <title>Static Interactive Resume</title>
   </head>
   <body>
+    <!-- resume-container -->
     <div class="MainContainer">
-      <section id="PersonalInfo">
-        <img src="mypic.jpg" alt="Profile Pic" />
+      <div class="LeftSection">
+        <img src="mypic.jpg" alt="Profile Pic" class="ProfilePic" />
 
-        <h1 id="name">M. Jamil Raza Attari</h1>
-        <h3>Contact info:</h3>
-        <ul>
-          <li>E-mail: jamilraza001@gmail.com</li>
-          <li>Phone: 0310-3118833</li>
-          <li>LinkedIn: https://www.linkedin.com/in/jamilrazaa/</li>
-        </ul>
-      </section>
-      <section id="Qualifications">
-        <h2>Qualifications</h2>
+        <section id="Objective">
+          <h3>Career Objective</h3>
+          <p>
+            To secure an employment opportunity with a leading,progressive and
+            competitive organization,where I can utilize my knowledge to the
+            maximum add value to the organization with a strong foundation in
+            programming languages and technologies.
+          </p>
+        </section>
 
-        <ul>
-          <li>
-            <ul>
-              <li>Matriculation</li>
-              <li>The Metropolitan Academy (TMA)</li>
-              <li>2006 - 2017</li>
-            </ul>
-          </li>
+        <section id="Certification">
+          <h3>Certifications</h3>
+          <ul>
+            <li>
+              <ul>
+                <li><b>National Certification in IT & e-Commerce</b></li>
+                <li>Memon Industrial & Technical Institute (M.I.T.I)</li>
+                <li>March 2023 - October 2023</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><b>National Certification in Wordpress Development</b></li>
+                <li>Institute of Business Management (IoBM)</li>
+                <li>Feb 2024 - June 2024</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><b>AI, Web 3.0, Metaverse</b></li>
+                <li>Governor House, Karachi</li>
+                <li>Ongoing</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><b>Python, Data Science and AI</b></li>
+                <li>Salayani Mass IT Program (S.M.I.T)</li>
+                <li>Ongoing</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
 
-          <li>
-            <ul>
-              <li>Intermediate</li>
-              <li>Government Superior Science & Commerce College</li>
-              <li>2018 - 2022</li>
-            </ul>
-          </li>
+      <div class="RightSection">
+        <h1>Static Interactive Resume</h1>
 
-          <li>
-            <ul>
-              <li>National Certification in IT & e-Commerce</li>
-              <li>Memon Industrial & Technical Institute (M.I.T.I)</li>
-              <li>March 2023 - October 2023</li>
-            </ul>
-          </li>
+        <section id="PersonalInfo">
+          <h3>Personal Details</h3>
+          <p><b>Name:</b> M. Jamil Raza Attari</p>
+          <p>
+            <b>Email:</b
+            ><a href="mailto:jamilraza001@gmail.com">jamilraza001@gmail.com</a>
+          </p>
+          <p><b>Phone:</b> 0310-3118833</p>
+          <p>
+            <b>LinkedIn:</b
+            ><a href="https://www.linkedin.com/in/jamilrazaa/" target="_blank"
+              >https://www.linkedin.com/in/jamilrazaa/</a
+            >
+          </p>
+          <p>
+            <b>Github:</b
+            ><a href="https://github.com/JamilRaza001" target="_blank"
+              >https://github.com/JamilRaza001</a
+            >
+          </p>
+        </section>
 
-          <li>
-            <ul>
-              <li>National Certification in Wordpress Development</li>
-              <li>Institute of Business Management (IoBM)</li>
-              <li>Feb 2024 - June 2024</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <section id="Skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript & Typescript</li>
-          <li>Wordpress Development</li>
-          <li>Python</li>
-          <li>Pandas</li>
-          <li>Canva & CapCut</li>
-          <li>Basic illustrator & Photoshop</li>
-          <li>Basic Figma</li>
-          <li>Social Media Management & Marketing</li>
-        </ul>
-      </section>
-      <section id="Experience">
-        <h2>Experience</h2>
+        <section id="Education">
+          <h3>Education</h3>
+          <ul>
+            <li>
+              <ul>
+                <li><b>Intermediate</b></li>
+                <li><b>Government Superior Science & Commerce College</b></li>
+                <li><b>2018 - 2022</b></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><b>Matriculation</b></li>
+                <li><b>The Metropolitan Academy (TMA)</b></li>
+                <li><b>2006 - 2017</b></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
 
-        <ul>
-          <li>
-            <ul>
-              <li>Habib Bank Limited (HBL)</li>
-              <li>Business Development Officer (BDO)</li>
-              <li>Jan 2024 - Feb 2024</li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>ibex Pakistan</li>
-              <li>Customer Service Agent & Chat Support</li>
-              <li>June 2024 - Aug 2024</li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>Maajee RealEstate</li>
-              <li>Assistant Supervisor</li>
-              <li>June 2021 - Aug 2023</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
+        <section id="Skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript & Typescript</li>
+            <li>Wordpress Development</li>
+            <li>Python</li>
+            <li>Pandas</li>
+            <li>Data Analysis</li>
+            <li>Data Visualization</li>
+            <li>Data Science</li>
+            <li>Ms Office</li>
+            <li>Canva & CapCut</li>
+            <li>Basic illustrator & Photoshop</li>
+            <li>Basic Figma</li>
+            <li>Social Media Management & Marketing</li>
+          </ul>
+        </section>
 
-      <button id="ToggleSkills">Hide / Show </button>
+        <section id="Experience">
+          <h3>Experience</h3>
 
-      <script src="index.js"></script>
+          <ul>
+            <li>
+              <ul>
+                <li><b>Habib Bank Limited (HBL)</b></li>
+                <li>Business Development Officer (BDO)</li>
+                <li>Jan 2024 - Feb 2024</li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><b>ibex Pakistan</b></li>
+                <li>Customer Service Agent & Chat Support</li>
+                <li>Feb 2023 - Present</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <button id="ToggleSkills"><b>Hide/Show Skills</b></button>
+      </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
